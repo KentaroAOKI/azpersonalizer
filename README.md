@@ -101,6 +101,7 @@ rank_request["excludedActions"] = get_exclude_actions()
 event_id = client.create_event_id()
 # rank
 result = client.rank(event_id, rank_request)
+print(result.json()["rewardActionId"])
 print(result.json())
 # reward if you like
 reward_request = client.create_empty_reward_request()

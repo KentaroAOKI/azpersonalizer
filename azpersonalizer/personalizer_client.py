@@ -1,9 +1,5 @@
 import json
 import requests
-import datetime
-import hashlib
-import hmac
-import base64
 import uuid
 
 class PersonalizerClient:
